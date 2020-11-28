@@ -32,7 +32,7 @@ function validatePasswords(passwords) {
 const passwords1 = ["Se%5", "TktE.TJTU", "384#HsHF", "dvyyeyy!5", "tryT3729"]
 const passwords2 = ["StUFf27%", "Pl3nty!", "Jai33", "shajsaUA**&&", "Pl3nty!"]
 
-const util = require('util');
+const util = require('util'); 
 
 function test(test_name, actual, expected) {
     let status;
