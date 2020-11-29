@@ -15,12 +15,7 @@ You don't have to worry about making this algorithm work fast! The idea is to ge
 */
 
 function sortAges(arr) {
-	let newArr = [];
-	for (i of arr) {
-		if (typeof(i) === "number") {
-			newArr.push(i);
-		}
-	}
+	let newArr = arr.filter(el => typeof(el) === "number");
 	newArr.sort(function(a,b){return a - b});
 	return newArr;
 }
