@@ -11,7 +11,17 @@ function findLongNameThatStartsWithA(arr) {
 	return arr.find(helper);
 }
 
-var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
+var names = [
+  "Rakesh",
+  "Antonio",
+  "Alexandra",
+  "Andronicus",
+  "Annam",
+  "Mikey",
+  "Anastasia",
+  "Karim",
+  "Ahmed",
+];
 
 var longNameThatStartsWithA = findLongNameThatStartsWithA(names);
 
