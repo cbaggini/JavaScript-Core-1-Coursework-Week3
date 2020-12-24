@@ -5,10 +5,7 @@
 
 // write your code here
 function findLongNameThatStartsWithA(arr) {
-	function helper(name) {
-		return name[0] === "A" && name.length > 7;
-	}
-	return arr.find(helper);
+	return arr.find(name => name[0] === "A" && name.length > 7);
 }
 
 var names = [

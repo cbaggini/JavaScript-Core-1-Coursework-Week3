@@ -16,7 +16,7 @@ var students = ["Islam", "Lesley", "Harun", "Rukmini"];
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
 
 function isNull(pair) {
-	return Boolean(pair);
+	return !Boolean(pair);
 }
 
 if (pairsByIndex.some(isNull)) {
